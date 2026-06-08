@@ -1,0 +1,121 @@
+2026-06-08T16:33:56 [INFO] ============================================================
+2026-06-08T16:33:56 [INFO] Job started
+2026-06-08T16:33:56 [INFO]   input    : data.csv
+2026-06-08T16:33:56 [INFO]   config   : config.yaml
+2026-06-08T16:33:56 [INFO]   output   : metrics.json
+2026-06-08T16:33:56 [INFO]   log_file : run.log
+2026-06-08T16:33:56 [INFO] ============================================================
+2026-06-08T16:33:56 [INFO] Loading config from: config.yaml
+2026-06-08T16:33:56 [INFO] Config validated — seed=42, window=5, version=v1
+2026-06-08T16:33:56 [INFO] Random seed set: 42
+2026-06-08T16:33:56 [INFO] Loading dataset from: data.csv
+2026-06-08T16:33:56 [ERROR] Job failed: Input file not found: data.csv
+Traceback (most recent call last):
+  File "C:\Users\Ankur\Desktop\MLOps\run.py", line 166, in main
+    df = load_dataset(args.input, logger)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ankur\Desktop\MLOps\run.py", line 81, in load_dataset
+    raise FileNotFoundError(f"Input file not found: {input_path}")
+FileNotFoundError: Input file not found: data.csv
+2026-06-08T16:33:56 [INFO] ============================================================
+2026-06-08T16:34:59 [INFO] ============================================================
+2026-06-08T16:34:59 [INFO] Job started
+2026-06-08T16:34:59 [INFO]   input    : data.csv
+2026-06-08T16:34:59 [INFO]   config   : config.yaml
+2026-06-08T16:34:59 [INFO]   output   : metrics.json
+2026-06-08T16:34:59 [INFO]   log_file : run.log
+2026-06-08T16:34:59 [INFO] ============================================================
+2026-06-08T16:34:59 [INFO] Loading config from: config.yaml
+2026-06-08T16:34:59 [INFO] Config validated — seed=42, window=5, version=v1
+2026-06-08T16:34:59 [INFO] Random seed set: 42
+2026-06-08T16:34:59 [INFO] Loading dataset from: data.csv
+2026-06-08T16:34:59 [ERROR] Job failed: Input file not found: data.csv
+Traceback (most recent call last):
+  File "C:\Users\Ankur\Desktop\MLOps\run.py", line 166, in main
+    df = load_dataset(args.input, logger)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ankur\Desktop\MLOps\run.py", line 81, in load_dataset
+    raise FileNotFoundError(f"Input file not found: {input_path}")
+FileNotFoundError: Input file not found: data.csv
+2026-06-08T16:34:59 [INFO] ============================================================
+2026-06-08T16:37:06 [INFO] ============================================================
+2026-06-08T16:37:06 [INFO] Job started
+2026-06-08T16:37:06 [INFO]   input    : data.csv
+2026-06-08T16:37:06 [INFO]   config   : config.yaml
+2026-06-08T16:37:06 [INFO]   output   : metrics.json
+2026-06-08T16:37:06 [INFO]   log_file : run.log
+2026-06-08T16:37:06 [INFO] ============================================================
+2026-06-08T16:37:06 [INFO] Loading config from: config.yaml
+2026-06-08T16:37:06 [INFO] Config validated — seed=42, window=5, version=v1
+2026-06-08T16:37:06 [INFO] Random seed set: 42
+2026-06-08T16:37:06 [INFO] Loading dataset from: data.csv
+2026-06-08T16:37:06 [ERROR] Job failed: Required column 'close' not found. Available columns: ['timestamp,open,high,low,close,volume_btc,volume_usd']
+Traceback (most recent call last):
+  File "C:\Users\Ankur\Desktop\MLOps\run.py", line 166, in main
+    df = load_dataset(args.input, logger)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ankur\Desktop\MLOps\run.py", line 92, in load_dataset
+    raise ValueError(
+ValueError: Required column 'close' not found. Available columns: ['timestamp,open,high,low,close,volume_btc,volume_usd']
+2026-06-08T16:37:06 [INFO] ============================================================
+2026-06-08T16:39:53 [INFO] ============================================================
+2026-06-08T16:39:53 [INFO] Job started
+2026-06-08T16:39:53 [INFO]   input    : data.csv
+2026-06-08T16:39:53 [INFO]   config   : config.yaml
+2026-06-08T16:39:53 [INFO]   output   : metrics.json
+2026-06-08T16:39:53 [INFO]   log_file : run.log
+2026-06-08T16:39:53 [INFO] ============================================================
+2026-06-08T16:39:53 [INFO] Loading config from: config.yaml
+2026-06-08T16:39:53 [INFO] Config validated — seed=42, window=5, version=v1
+2026-06-08T16:39:53 [INFO] Random seed set: 42
+2026-06-08T16:39:53 [INFO] Loading dataset from: data.csv
+2026-06-08T16:39:53 [ERROR] Job failed: Required column 'close' not found. Available columns: ['timestamp,open,high,low,close,volume_btc,volume_usd']
+Traceback (most recent call last):
+  File "C:\Users\Ankur\Desktop\MLOps\run.py", line 166, in main
+    df = load_dataset(args.input, logger)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ankur\Desktop\MLOps\run.py", line 92, in load_dataset
+    raise ValueError(
+ValueError: Required column 'close' not found. Available columns: ['timestamp,open,high,low,close,volume_btc,volume_usd']
+2026-06-08T16:39:53 [INFO] ============================================================
+2026-06-08T16:40:57 [INFO] ============================================================
+2026-06-08T16:40:57 [INFO] Job started
+2026-06-08T16:40:57 [INFO]   input    : data.csv
+2026-06-08T16:40:57 [INFO]   config   : config.yaml
+2026-06-08T16:40:57 [INFO]   output   : metrics.json
+2026-06-08T16:40:57 [INFO]   log_file : run.log
+2026-06-08T16:40:57 [INFO] ============================================================
+2026-06-08T16:40:57 [INFO] Loading config from: config.yaml
+2026-06-08T16:40:57 [INFO] Config validated — seed=42, window=5, version=v1
+2026-06-08T16:40:57 [INFO] Random seed set: 42
+2026-06-08T16:40:57 [INFO] Loading dataset from: data.csv
+2026-06-08T16:40:57 [ERROR] Job failed: Required column 'close' not found. Available columns: ['timestamp,open,high,low,close,volume_btc,volume_usd']
+Traceback (most recent call last):
+  File "C:\Users\Ankur\Desktop\MLOps\run.py", line 166, in main
+    df = load_dataset(args.input, logger)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ankur\Desktop\MLOps\run.py", line 92, in load_dataset
+    raise ValueError(
+ValueError: Required column 'close' not found. Available columns: ['timestamp,open,high,low,close,volume_btc,volume_usd']
+2026-06-08T16:40:57 [INFO] ============================================================
+2026-06-08T16:45:30 [INFO] ============================================================
+2026-06-08T16:45:30 [INFO] Job started
+2026-06-08T16:45:30 [INFO]   input    : data.csv
+2026-06-08T16:45:30 [INFO]   config   : config.yaml
+2026-06-08T16:45:30 [INFO]   output   : metrics.json
+2026-06-08T16:45:30 [INFO]   log_file : run.log
+2026-06-08T16:45:30 [INFO] ============================================================
+2026-06-08T16:45:30 [INFO] Loading config from: config.yaml
+2026-06-08T16:45:30 [INFO] Config validated — seed=42, window=5, version=v1
+2026-06-08T16:45:30 [INFO] Random seed set: 42
+2026-06-08T16:45:30 [INFO] Loading dataset from: data.csv
+2026-06-08T16:45:30 [INFO] Dataset loaded — 10000 rows, columns: ['timestamp', 'open', 'high', 'low', 'close', 'volume_btc', 'volume_usd']
+2026-06-08T16:45:30 [INFO] Computing rolling mean with window=5
+2026-06-08T16:45:30 [INFO] Rolling mean computed — 4 NaN rows (first 4 rows excluded from signal)
+2026-06-08T16:45:30 [INFO] Signal generated — 9996 valid rows, signal_rate=0.4991
+2026-06-08T16:45:30 [INFO] Metrics written to: metrics.json
+2026-06-08T16:45:30 [INFO]   rows_processed : 10000
+2026-06-08T16:45:30 [INFO]   signal_rate    : 0.4991
+2026-06-08T16:45:30 [INFO]   latency_ms     : 54
+2026-06-08T16:45:30 [INFO] Job completed successfully
+2026-06-08T16:45:30 [INFO] ============================================================
